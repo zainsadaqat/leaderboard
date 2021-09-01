@@ -4,10 +4,6 @@
 
 > Hello, My name is Zain Sadaqat and this is my Leaderboard List Project build in Webpack.
 
-## Desktop View
-
-![DesktopView](media/images/Desktop-View.png)
-
 ## Built With
 
 - HTML, CSS, Javascript
