@@ -1,59 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> One paragraph statement about the project.
+> Hello, My name is Zain Sadaqat and this is my Leaderboard List Project build in Webpack.
 
-![screenshot](./app_screenshot.png)
+## Desktop View
 
-Additional description about the project and its features.
+![DesktopView](media/images/Desktop-View.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML, CSS, Javascript
+- Webpack
+- Gitflow
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+> To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- You need a code editor ( VS Code Recommended ) and git installed on your machine.
+- In case if you don't have installed VS Code then you can download it from the link given below:
+  - https://code.visualstudio.com/download
+- In case if you don't have installed Git then you can download it from the link given below:
+  - https://git-scm.com/downloads
+
 ### Setup
 
-### Install
+- Go to Code and Copy the link
+  ![HowToCopyLink](media/images/clone-code-link.png)
+- Go to Terminal and type "git clone paste-the-repository-link-that-you-copied"
+  ![HowToUseLink](media/images/clone-code-terminal.png)
+- cd project-name
+- run the index.html file in your favourite browser ( Google Chrome Recommended )
+- In case if you don't have installed Google Chrome then you can download it from the link given below:
+  https://www.google.com/chrome/?brand=CHBD&brand=BNSD&gclid=Cj0KCQjwxdSHBhCdARIsAG6zhlVSZQMe6au8-9f-iIf_kn9aWEShW_wQ0xT5E02lc9jEzHOCdXcHCm8aAgNTEALw_wcB&gclsrc=aw.ds
 
 ### Usage
 
-### Run tests
+- Project will be open in Desktop view but if you want to check in the mobile view then press
+  ctrl + shift + i or right click and select the inspect option and click the mobile icon available
+  on left side of the chrome inspector tool and If you're using firefox it's available on right side.
 
-### Deployment
+## Author
 
+👤 **Zain Sadaqat**
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@zainsadaqat](https://github.com/zainsadaqat)
+- Twitter: [@zain_sadaqat](https://twitter.com/zain_sadaqat)
+- LinkedIn: [@zainsadaqat](https://linkedin.com/in/zainsadaqat)
+- Instagram: [@zain\_\_sadaqat](https://instagram.com/zain__sadaqat)
 
 ## 🤝 Contributing
 
@@ -64,12 +61,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
