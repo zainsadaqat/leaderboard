@@ -5,28 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leaderboard List App</title>
   </head>
-  <body>
+  <body class="padding-1em">
     <header class="container"><h1 class="padding-y">Leaderboard</h1></header>
-    <main class="container">
-      <section>
-        <article class="flex align-center">
+    <main class="container d-flex justify-space-between align-center">
+      <section class="flex padding-1em">
+        <article class="d-flex justify-space-between margin-bottom">
           <h2>Recent scores</h2>
-          <button type="button">Refresh</button>
+          <button type="button" class="btn">Refresh</button>
         </article>
-        <ul>
-          <li>Name:</li>
-          <li>100</li>
+        <ul class="leaderboard">
+          <li>
+            <section class="d-flex">
+              <p>Name:</p>
+              <p>100</p>
+            </section>
+          </li>
+          <li>
+            <section class="d-flex">
+              <p>Name:</p>
+              <p>50</p>
+            </section>
+          </li>
+          <li>
+            <section class="d-flex">
+              <p>Name:</p>
+              <p>80</p>
+            </section>
+          </li>
         </ul>
       </section>
-      <section>
-        <h2>Add your score</h2>
-        <form
-          action="#"
-          class="flex direction-column justify-center align-center"
-        >
-          <input type="text" />
-          <input type="text" />
-          <input type="submit" />
+      <section class="flex padding-1em">
+        <h2 class="margin-bottom">Add your score</h2>
+        <form action="#">
+          <input
+            type="text"
+            class="d-block input margin-bottom"
+            placeholder="Your name"
+          />
+          <input
+            type="text"
+            class="d-block input margin-bottom"
+            placeholder="Your score"
+          />
+          <input type="submit" class="d-block btn" />
         </form>
       </section>
     </main>
