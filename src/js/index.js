@@ -20,6 +20,13 @@ refresh.addEventListener('click', () => {
 });
 
 form.addEventListener('submit', (e) => {
+  if (userInput.value === '' || scoreInput.value === '') {
+    const dataMessage = document.querySelector('[data-message]');
+    dataMessage.style.color = '#ff0000';
+    dataMessage.classList.toggle('d-none');
+    setTimeout(() => dataMessage.classList.toggle('d-none'), 3000);
+  }
+
   postData(userInput.value, scoreInput.value);
   e.target.reset();
 });
