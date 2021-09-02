@@ -11,7 +11,7 @@
       <section class="flex padding-1em">
         <article class="d-flex justify-space-between margin-bottom">
           <h2>Recent scores</h2>
-          <button type="button" class="btn">Refresh</button>
+          <button type="button" class="btn" id="refresh">Refresh</button>
         </article>
         <ul class="leaderboard"></ul>
       </section>
@@ -20,11 +20,13 @@
         <form action="#">
           <input
             type="text"
+            id="user"
             class="d-block input margin-bottom"
             placeholder="Your name"
           />
           <input
-            type="text"
+            type="number"
+            id="score"
             class="d-block input margin-bottom"
             placeholder="Your score"
           />
