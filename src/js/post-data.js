@@ -1,6 +1,6 @@
 require('@babel/polyfill');
 
-const id = `S5pdI41dDbnkv9fAjP97`;
+const id = `982X2Sxledkcq4ce1LDh`;
 const URL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores/`;
 
 const postData = async (user, score) => {
