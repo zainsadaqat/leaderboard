@@ -1,7 +1,8 @@
-import listItem from './list-item';
+import listItem from './list-item.js';
+
 require('@babel/polyfill');
 
-const id = `982X2Sxledkcq4ce1LDh`;
+const id = '982X2Sxledkcq4ce1LDh';
 const URL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`;
 
 const scoresList = async () => {
