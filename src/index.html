@@ -7,32 +7,13 @@
   </head>
   <body class="padding-1em">
     <header class="container"><h1 class="padding-y">Leaderboard</h1></header>
-    <main class="container d-flex justify-space-between align-center">
+    <main class="container d-flex justify-space-between align-start">
       <section class="flex padding-1em">
         <article class="d-flex justify-space-between margin-bottom">
           <h2>Recent scores</h2>
           <button type="button" class="btn">Refresh</button>
         </article>
-        <ul class="leaderboard">
-          <li>
-            <section class="d-flex">
-              <p>Name:</p>
-              <p>100</p>
-            </section>
-          </li>
-          <li>
-            <section class="d-flex">
-              <p>Name:</p>
-              <p>50</p>
-            </section>
-          </li>
-          <li>
-            <section class="d-flex">
-              <p>Name:</p>
-              <p>80</p>
-            </section>
-          </li>
-        </ul>
+        <ul class="leaderboard"></ul>
       </section>
       <section class="flex padding-1em">
         <h2 class="margin-bottom">Add your score</h2>
@@ -51,5 +32,14 @@
         </form>
       </section>
     </main>
+
+    <template id="list-item-template">
+      <li data-list-item>
+        <section class="d-flex" data-section>
+          <p data-user></p>
+          <p data-score></p>
+        </section>
+      </li>
+    </template>
   </body>
 </html>
