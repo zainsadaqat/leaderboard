@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex {
+  flex: 1 1 50%;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.btn {
+  padding: 0.5em 1em;
+}
+
+.input {
+  padding: 0.5em;
+}
+
+.padding-y {
+  padding: 1em 0;
+}
+
+.padding-1em {
+  padding: 1em;
+}
+
+.margin-bottom {
+  margin-bottom: 0.75em;
+}
+
+.leaderboard {
+  border: 3px solid black;
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.leaderboard > * {
+  padding: 0.45em;
+}
+
+.leaderboard > li:nth-child(2n) {
+  background-color: rgb(192, 192, 192);
+}
