@@ -18,7 +18,10 @@ refresh.addEventListener('click', () => {
 });
 
 submit.addEventListener('submit', (e) => {
-  if (userInput === '' || scoreInput === '') return;
-
-  postData(userInput, scoreInput);
+  postData(userInput.value, scoreInput.value);
 });
+
+const clearFields = () => {
+  userInput.value = '';
+  scoreInput.value = '';
+};

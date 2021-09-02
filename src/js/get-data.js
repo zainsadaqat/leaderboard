@@ -1,7 +1,8 @@
 import listItem from './list-item';
 require('@babel/polyfill');
 
-const URL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/`;
+const id = `S5pdI41dDbnkv9fAjP97`;
+const URL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores/`;
 
 const scoresList = async () => {
   const response = await fetch(URL);
