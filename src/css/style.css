@@ -6,13 +6,25 @@
   text-decoration: none;
 }
 
+:root {
+  --background: #141c2f;
+  --foreground: #1f2a48;
+  --text: #b3b9c5;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  color: rgb(68, 67, 67);
 }
 
 .d-flex {
