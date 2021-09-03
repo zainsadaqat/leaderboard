@@ -27,6 +27,10 @@ body {
   align-items: center;
 }
 
+.align-start {
+  align-items: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -73,11 +77,12 @@ body {
 
 .leaderboard {
   border: 3px solid black;
-  width: 100%;
+  height: 60vh;
+  overflow-y: auto;
 }
 
 .leaderboard > * {
-  padding: 0.5em;
+  padding: 0.45em;
 }
 
 .leaderboard > li:nth-child(2n) {
