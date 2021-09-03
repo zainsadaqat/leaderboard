@@ -60,6 +60,10 @@ body {
   justify-content: space-between;
 }
 
+.leaderboard-sections > * {
+  padding: 0.55em;
+}
+
 .add-score-section {
   margin-bottom: 10px;
 }
