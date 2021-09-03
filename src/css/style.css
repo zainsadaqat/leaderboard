@@ -7,9 +7,12 @@
 }
 
 :root {
-  --background: #141c2f;
-  --foreground: #1f2a48;
-  --text: #b3b9c5;
+  --dark-background: #141c2f;
+  --light-background: #f5f8ff;
+  --dark-foreground: #1f2a48;
+  --light-foreground: #fefefe;
+  --dark-text: #b3b9c5;
+  --light-text: #818999;
 }
 
 body {
