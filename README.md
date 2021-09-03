@@ -8,6 +8,7 @@
 
 - HTML, CSS, Javascript
 - Webpack
+- Restful APIs
 - Gitflow
 
 ## Getting Started
@@ -24,12 +25,10 @@
 
 ### Setup
 
-- Go to Code and Copy the link
-  ![HowToCopyLink](media/images/clone-code-link.png)
-- Go to Terminal and type "git clone paste-the-repository-link-that-you-copied"
-  ![HowToUseLink](media/images/clone-code-terminal.png)
-- cd project-name
-- run the index.html file in your favourite browser ( Google Chrome Recommended )
+- Go to project's path and perform the following steps:
+  - npm i
+  - npm start
+  - Project will be opened in available browser ( Google Chrome Recommended )
 - In case if you don't have installed Google Chrome then you can download it from the link given below:
   https://www.google.com/chrome/?brand=CHBD&brand=BNSD&gclid=Cj0KCQjwxdSHBhCdARIsAG6zhlVSZQMe6au8-9f-iIf_kn9aWEShW_wQ0xT5E02lc9jEzHOCdXcHCm8aAgNTEALw_wcB&gclsrc=aw.ds
 

@@ -1,4 +1,4 @@
-const leaderboard = document.querySelector('.leaderboard');
+const table = document.querySelector('.leaderboard-table');
 const template = document.querySelector('#list-item-template');
 
 const listItem = (user, score) => {
@@ -7,12 +7,10 @@ const listItem = (user, score) => {
   dataUser.innerText = user;
   const dataScore = templateClone.querySelector('[data-score]');
   dataScore.innerText = score;
-  const dataSection = templateClone.querySelector('[data-section]');
-  dataSection.append(dataUser);
-  dataSection.append(dataScore);
   const dataListItem = templateClone.querySelector('[data-list-item]');
-  dataListItem.append(dataSection);
-  leaderboard.append(dataListItem);
+  dataListItem.append(dataUser);
+  dataListItem.append(dataScore);
+  table.append(dataListItem);
 };
 
 export default listItem;
