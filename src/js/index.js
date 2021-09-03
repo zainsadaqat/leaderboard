@@ -4,10 +4,10 @@ import postData from './post-data.js';
 
 require('@babel/polyfill');
 
-const refresh = document.querySelector('#refresh');
+const refresh = document.querySelector('#refresh-button');
 const form = document.querySelector('#form');
-const userInput = document.querySelector('#user');
-const scoreInput = document.querySelector('#score');
+const userInput = document.querySelector('#user-name-field');
+const scoreInput = document.querySelector('#user-score-field');
 
 scoresList();
 
