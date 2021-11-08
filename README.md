@@ -7,6 +7,10 @@
 
 ![DesktopView](./leaderboard-screenshot.png)
 
+## Deployed Project Link:
+
+https://leaderboard-rest-api.netlify.app/
+
 ## Built With
 
 - HTML, CSS, Javascript
