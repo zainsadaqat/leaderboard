@@ -5,7 +5,7 @@
 > Hello, my name is Zain and this is my leaderboard project that I built using javascript. Here in this project we create games on unique ID where we can submit user name and score. We can also fetch a list of all users and their score. 
 ## Desktop View
 
-![DesktopView](media/images/Desktop-View.png)
+![DesktopView](./leaderboard-screenshot.png)
 
 ## Built With
 
