@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>Leaderboard List App</title>
+  </head>
+  <body class="dark-background">
+    <header class="header flex-center space-between container">
+      <h1 class="title dark-text">Leaderboard</h1>
+    </header>
+
+    <main class="leaderboard-sections container">
+      <section class="get-leaderboard">
+        <article class="add-score-section flex-center space-between">
+          <h2 class="dark-text">Recent scores</h2>
+          <button type="button" class="btn" id="refresh-button">Refresh</button>
+        </article>
+        <ul class="leaderboard-table">
+          <li class="list-item">
+            <span class="heading">Name</span>
+            <span class="heading">score</span>
+          </li>
+        </ul>
+      </section>
+      <section class="post-leaderboard">
+        <h2 class="add-score dark-text">Add your score</h2>
+        <form action="#" id="form" class="leaderboard-form">
+          <input
+            type="text"
+            class="input"
+            id="user-name-field"
+            size="40"
+            placeholder="John Doe"
+          />
+          <input
+            type="number"
+            class="input"
+            id="user-score-field"
+            placeholder="100"
+          />
+          <input type="submit" class="btn" id="submit-button" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <template id="list-item-template">
+      <li class="list-item" data-list-item>
+        <span data-user>Name</span><span data-score>score</span>
+      </li>
+    </template>
+  </body>
+</html>
